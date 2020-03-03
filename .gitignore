@@ -10,6 +10,7 @@ crashdumps/*
 *.txt
 *.phar
 server.properties
+server_setting.yml
 /pocketmine.yml
 /plugin_list.yml
 memory_dumps/*

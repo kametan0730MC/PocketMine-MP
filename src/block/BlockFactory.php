@@ -572,9 +572,10 @@ class BlockFactory{
 
 		self::registerElements();
 
+		self::register(new Bamboo(new BID(Ids::BAMBOO), "Bamboo"));
+		self::register(new BambooSapling(new BID(Ids::BAMBOO_SAPLING), "Bamboo Sapling"));
+
 		//region --- auto-generated TODOs ---
-		//TODO: minecraft:bamboo
-		//TODO: minecraft:bamboo_sapling
 		//TODO: minecraft:barrel
 		//TODO: minecraft:beacon
 		//TODO: minecraft:bell

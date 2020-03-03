@@ -663,6 +663,9 @@ use function assert;
  * @method static Glass YELLOW_STAINED_GLASS()
  * @method static GlassPane YELLOW_STAINED_GLASS_PANE()
  * @method static Wool YELLOW_WOOL()
+ *
+ * @method static Bamboo BAMBOO()
+ * @method static BambooSapling BAMBOO_SAPLING()
  */
 final class VanillaBlocks{
 	use RegistryTrait;
@@ -712,6 +715,8 @@ final class VanillaBlocks{
 		self::register("andesite_wall", BlockFactory::get(139, 4));
 		self::register("anvil", BlockFactory::get(145));
 		self::register("azure_bluet", BlockFactory::get(38, 3));
+		self::register("bamboo", BlockFactory::get(418));
+		self::register("bamboo_sapling", BlockFactory::get(419));
 		self::register("banner", BlockFactory::get(176));
 		self::register("barrier", BlockFactory::get(416));
 		self::register("bed", BlockFactory::get(26));
